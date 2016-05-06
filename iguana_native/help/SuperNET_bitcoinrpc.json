@@ -1,0 +1,16 @@
+{
+  "agent": "SuperNET",
+  "method": "bitcoinrpc",
+  "field0": "put in helpful info field0",
+  "field1": "put in helpful info for field1",
+  "help": "Set the coin  to use for bitcoin RPC calls. this will suffice in single coin environments. That is bitcoinrpc API just sets the coin to use for the bitcoin RPC api",
+  "teststatus": [
+    {
+      "tester": "bob",
+      "result": "put result here",
+      "notes": "put useful notes here",
+      "automated": "notyet",
+      "sourcefile": "SuperNET_bitcoinrpc_test.py"
+    }
+  ]
+}

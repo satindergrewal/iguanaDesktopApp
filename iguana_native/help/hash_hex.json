@@ -1,0 +1,16 @@
+{
+  "agent": "hash",
+  "method": "hex",
+  "field0": "put in helpful info field0",
+  "field1": "put in helpful info for field1",
+  "help": "This API call is used to convert any input string to hexadecimal value. Converting a string to hexadecimal provides a single long alphanumerical string.\n\nThe example shows if we convert a small example of HTML code to hexadecimal using API call what it would look like:\n\n> Example string (HTML Code):\n\n```text\n<html><head><title>Home Page</title></head><body><h1>Hello World</h1><p>This is test.</p></body></html>\n```\n\n> HTTP API call example for converting to hexadecimal:\n\n```text\nhttp://127.0.0.1:7778/api/hash/hex?message=%3Chtml%3E%3Chead%3E%3Ctitle%3EHome+Page%3C%2Ftitle%3E%3C%2Fhead%3E%3Cbody%3E%3Ch1%3EHello+World%3C%2Fh1%3E%3Cp%3EThis+is+test.%3C%2Fp%3E%3C%2Fbody%3E%3C%2Fhtml%3E\n```\n\n> End result:\n\n```text\n{\n  \"result\": \"hash calculated\",\n  \"message\": \"<html><head><title>Home Page</title></head><body><h1>Hello World</h1><p>This is test.</p></body></html>\",\n  \"hex\": \"3c68746d6c3e3c686561643e3c7469746c653e486f6d6520506167653c2f7469746c653e3c2f686561643e3c626f64793e3c68313e48656c6c6f20576f726c643c2f68313e3c703e5468697320697320746573742e3c2f703e3c2f626f64793e3c2f68746d6c3e00\",\n  \"tag\": \"7729339918800585698\"\n}\n```\n",
+  "teststatus": [
+    {
+      "tester": "bob",
+      "result": "put result here",
+      "notes": "put useful notes here",
+      "automated": "notyet",
+      "sourcefile": "hash_hex_test.py"
+    }
+  ]
+}
